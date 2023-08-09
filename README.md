@@ -1,3 +1,2 @@
-# goit-markup-hw-03
+# goit-markup-hw-06
 
-Поставиив  fill="curentcolor"
