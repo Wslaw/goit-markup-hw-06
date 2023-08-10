@@ -7,7 +7,7 @@
 /* ------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
   .features {
@@ -61,13 +61,23 @@
   .cards-list {
     margin: 0 auto;
   }
+
+   .list-header,
+.list-address {
+  display: flex;
+  
 }
+
+}
+
 
 /* -----------------------1158 px--------------------- */
 /* --------------------------------------------------- */
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .feature {
@@ -120,4 +130,11 @@
   .cards-list {
     margin: 0 auto;
   }
+
+  .list-header,
+.list-address {
+  display: flex;
+  
 }
+}
+

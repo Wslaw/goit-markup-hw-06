@@ -92,17 +92,22 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   width: 100%;
-  max-width: 1158px;
-  /* 1128 в макеті + 2х15рх */
+  max-width: 1158px; 
   padding-left: 15px;
-  padding-right: 15px;
-  /* задаємо центрування */
-  margin: 0 auto;
-  /* Підсвічуємо контейнери */
-  /* outline: 2px solid #31d0aa; */
+  padding-right: 15px;  
+  margin: 0 auto;  
+} */
+/* covet ot mentora */
+.container {
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -200,12 +205,19 @@ body {
 /* -----------------------------END------псевдокласси------------------ */
 /* -------------------------------------------------------------------- */
 
+
+.address {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
 .list-header,
 .list-address {
   display: flex;
   gap: 40px;
   justify-content: space-between;
   align-items: center;
+  display: none;
 }
 
 .list-header .item {
@@ -236,11 +248,7 @@ body {
   margin-right: 76px;
 }
 
-.address {
-  display: flex;
-  gap: 40px;
-  margin-left: auto;
-}
+
 
 .link {
   text-decoration: none;
