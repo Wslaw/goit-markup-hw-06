@@ -507,8 +507,9 @@ body {
 
 .cards {
   background-color: var(--cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .cards-title {
@@ -528,14 +529,14 @@ body {
 .cards .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  /* gap: 24px; */
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .cards-list {
   background-color: var(--white);
   /*width: 264px;*/
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
@@ -543,7 +544,9 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+
+margin: 72px 82px;
+  }
 
 .cards .subtitle {
   line-height: 1.2;
@@ -561,7 +564,7 @@ body {
   /* text-align: center; */
   /* padding: 32px 16px; */
   /* background-color: blueviolet; */
-  /* max-width: 232px; */
+  min-width: 264px;
 }
 
 .social-list {
