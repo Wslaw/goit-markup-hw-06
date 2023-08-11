@@ -99,7 +99,7 @@ body {
   padding-right: 15px;  
   margin: 0 auto;  
 } */
-/* covet ot mentora */
+/* sovet ot mentora */
 .container {
   max-width: 428px;
   padding-left: 16px;
@@ -537,6 +537,8 @@ body {
 .cards .list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   /* gap: 24px; */
   /* flex-basis: calc((100% - 72px) / 4); */
 }
