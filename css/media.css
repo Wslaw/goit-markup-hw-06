@@ -190,4 +190,31 @@
 .customers-link {
   padding: 16px 32px;
 }
+
+/* -------footer----------- */
+
+.footer .logo-web { 
+  margin-bottom: 16px; 
+}
+
+.footer-text {
+   max-width: 264px;  
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer {
+   padding-top: 97px;
+  padding-bottom: 96px;
+}
+.subscribe {
+ 
+  margin-top: 100px;
+}
+.subscribe-form {
+  display: flex;
+  
+}
 }
