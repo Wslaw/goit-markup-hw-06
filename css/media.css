@@ -41,6 +41,18 @@ letter-spacing: 0.04em;
   display: none;
 }
   
+
+.hero {
+  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tab.jpg);
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
 .hero-title {
 
   text-align: center;
@@ -202,6 +214,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.hero {
+  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-pc.jpg);
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
   .hero {
     padding-top: 188px;
   padding-bottom: 188px;
