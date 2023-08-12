@@ -14,7 +14,6 @@
 
 
 
-
 }
 /* ----------------768 px--------------------------- */
 /* ------------------------------------------------- */
@@ -49,9 +48,19 @@ letter-spacing: 0.04em;
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-tab.jpg);
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
+  
+}
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tab-2x.jpg);
+  }
 }
 .hero-title {
 
@@ -225,6 +234,21 @@ letter-spacing: 0.02em;
   background-size: cover;
   background-position: center; */
 }
+
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-pc-2x.jpg);
+  }
+}
+
+
   .hero {
     padding-top: 188px;
   padding-bottom: 188px;
