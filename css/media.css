@@ -27,6 +27,11 @@
   
 }
 
+.btn-list {
+      justify-content: center;
+    flex-wrap: nowrap; margin-bottom: 72px;
+}
+
 .header .container {
  margin-top: 0;margin-bottom: 0;
 }
@@ -216,6 +221,14 @@ letter-spacing: 0.04em;
   margin-right: 76px;
   
 }
+
+.btn-list {
+      justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 72px;
+}
+
+
 .contacts {
   color: var(--slate, #434455);
 font-size: 16px;

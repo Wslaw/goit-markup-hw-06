@@ -16,16 +16,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   </head>
   <body>
     <!--| ---------------------------------- |-->
     <!--|              Header                |-->
-    <!--| ---------------------------------- |-->
-    <header class="header">
+       <!-- <header class="header">
       <div class="container">
-        <!--Navigation menu-->
-
-        <nav class="nav-page">
+             <nav class="nav-page">
           <a href="./index.html" class="logo-web link"
             >Web<span class="logo-studio link">Studio</span>
           </a>
@@ -43,8 +43,7 @@
             </li>
           </ul>
         </nav>
-        <!-- Contacts -->
-        <address class="address">
+              <address class="address">
           <ul class="list list-address">
             <li>
               <a
@@ -62,7 +61,152 @@
           </ul>
         </address>
       </div>
+      
+    </header> -->
+
+<header class="header">
+      <div class="container">
+        <nav class="nav-page">
+          <a href="./index.html" class="logo-web link"
+            >Web<span class="logo-studio link">Studio</span>
+          </a>
+          <ul class="list list-header">
+            <li>
+              <a class="link item stud current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="link item port" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link item cont" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list list-address">
+            <li>
+              <a
+                class="link contacts"
+                href="mailto:info@devstudio.com"
+                target="_blank"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="link contacts" href="tel:+110001111111" target="_blank"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+        <button type="button" class="menu-open-btn">
+          <svg class="menu-open-svg" width="32" height="22">
+            <use href="./images/icons.svg#icon-open-menu-btn"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu">
+        <button type="button" class="menu-close-btn">
+          <svg class="close-menu-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-menu-btn"></use>
+          </svg>
+        </button>
+        <ul class="list list-mob-menu">
+          <li>
+            <a class="item-mob-menu stud current" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="item-mob-menu port" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="item-mob-menu cont" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="address-mob-menu">
+          <ul class="list list-address-mob-menu">
+            <li>
+              <a
+                class="contacts-mob-menu"
+                href="mailto:info@devstudio.com"
+                target="_blank"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a
+                class="contacts-mob-menu"
+                href="tel:+110001111111"
+                target="_blank"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list mob-social-list">
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="40" height="40">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-instagram-2"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-menu-social-link"
+              href="www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-menu-social-svg" width="40" height="40">
+                <use
+                  class="mob-menu-social-use"
+                  href="./images/icons.svg#icon-twitter-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="40" height="40">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-facebook-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="16" height="16">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-linkedin-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
+    
     <!-- -------------------------------------------------- -->
     <!--                      Main                          -->
     <!-- -------------------------------------------------- -->
@@ -277,7 +421,7 @@
     <!-- ------------------------------------------------- -->
     <!--                   Footer                          -->
     <!-- ------------------------------------------------- -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="futer-logo">
           <a class="logo-web link" href="./index.html"
@@ -288,7 +432,6 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <!-- -----------two item ---------- -->
         <div class="footer-social">
           <p class="footer-social-media">Social media</p>
           <ul class="footer-list">
@@ -343,6 +486,93 @@
           </ul>
         </div>
        <div class="subscribe">
+          <p class="subscribe-title">Subscribe</p>
+          <form name="subscribe" class="subscribe-form">
+            <label for="subscribe" class="subscribe-label">
+              <input
+                type="email"
+                class="subscribe-input"
+                name="subscribe"
+                id="subscribe"
+                placeholder="E-mail"
+            /></label>
+
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-button"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer> -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="futer-logo">
+          <a class="logo-web link" href="./index.html"
+            >Web<span class="logo-studio link">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social">
+          <p class="footer-social-media">Social media</p>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a
+                class="footer-social-link"
+                href="www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-social-link"
+                href="www.twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-social-link"
+                href="www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-social-link"
+                href="www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
           <p class="subscribe-title">Subscribe</p>
           <form name="subscribe" class="subscribe-form">
             <label for="subscribe" class="subscribe-label">

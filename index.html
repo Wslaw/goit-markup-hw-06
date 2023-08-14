@@ -17,14 +17,13 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/media.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <!--------------------- Header ----------------------->
 
     <header class="header">
       <div class="container">
-
         <nav class="nav-page">
           <a href="./index.html" class="logo-web link"
             >Web<span class="logo-studio link">Studio</span>
@@ -58,11 +57,111 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-menu-btn">
-          <svg class="open-menu-svg" width="32" height="22">
+        <button type="button" class="menu-open-btn">
+          <svg class="menu-open-svg" width="32" height="22">
             <use href="./images/icons.svg#icon-open-menu-btn"></use>
           </svg>
         </button>
+      </div>
+      <div class="mob-menu">
+        <button type="button" class="menu-close-btn">
+          <svg class="close-menu-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-menu-btn"></use>
+          </svg>
+        </button>
+        <ul class="list list-mob-menu">
+          <li>
+            <a class="item-mob-menu stud current" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="item-mob-menu port" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="item-mob-menu cont" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="address-mob-menu">
+          <ul class="list list-address-mob-menu">
+            <li>
+              <a
+                class="contacts-mob-menu"
+                href="mailto:info@devstudio.com"
+                target="_blank"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a
+                class="contacts-mob-menu"
+                href="tel:+110001111111"
+                target="_blank"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list mob-social-list">
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="40" height="40">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-instagram-2"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-menu-social-link"
+              href="www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-menu-social-svg" width="40" height="40">
+                <use
+                  class="mob-menu-social-use"
+                  href="./images/icons.svg#icon-twitter-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="40" height="40">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-facebook-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icons">
+            <a
+              class="mob-social-link"
+              href="www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="mob-social-svg" width="40" height="40">
+                <use
+                  class="mob-social-use"
+                  href="./images/icons.svg#icon-linkedin-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!--     Main Content -->
@@ -72,7 +171,9 @@
       <!-- ----------------------------------------------- -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title hero-menu">Effective Solutions For Your Business</h1>
+          <h1 class="hero-title hero-menu">
+            Effective Solutions For Your Business
+          </h1>
           <button data-modal-open class="hero-btn open-modal" type="button">
             Order Service
           </button>

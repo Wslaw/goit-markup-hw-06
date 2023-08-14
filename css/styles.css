@@ -138,7 +138,11 @@ body {
 .nav-page {
   display: flex;
   align-items: center;
+  /*  */
+  background: var(--white);
+  overflow: auto;
 }
+
 
 /* ---------------------------------------------------------------------- */
 /* -----------------Begin-------------Псевдокласси----------------------- */
@@ -272,14 +276,107 @@ body {
   /* margin-right: 76px; */
   
 }
-.open-menu-btn {
+
+/* -------------------menu------------------------------ */
+
+
+
+
+
+
+
+
+.menu-open-btn {
   stroke: var(--navyblue);
   background-color: var(--white);
   border: transparent;
+  /* margin-left: auto; */
 }
-.open-menu-svg {
+.menu-open-svg {
+}
+.mob-menu {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  background-color: #FFF;
+  padding: -24px 24px 40px 40px;
+  width: 100vw;
+  height: 100vh;
+}
+.menu-close-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 32px;
+  border-radius: 50%;
+opacity: 0.3;
+}
+.close-menu-svg {
+}
+.list {
+}
+.list-mob-menu {
+}
+.item-mob-menu {
+  color: var(--navyblue, #2E2F42);
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.stud {
+}
+.current {
+}
+.port {
+}
+.cont {
+}
+.address-mob-menu {
+}
+.list-address-mob-menu {
+  color: var(--slate, #434455);
+
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02;
+}
+.contacts-mob-menu {
+}
+.mob-social-list {
+}
+.mob-social-icons {
+  border-radius: 50%;
+  padding: 8px 8px;
+  
+}
+.mob-social-link {
+  border: 1px solid;
+border-radius: 50%;
+fill:#FFF
+
 }
 
+.mob-social-svg {
+}
+.mob-social-use {
+}
+.mob-menu-social-link {
+}
+.mob-menu-social-svg {
+}
+.mob-menu-social-use {
+}
+
+
+
+/* -------------------end of menu-------------------- */
 
 .link {
   text-decoration: none;
@@ -290,9 +387,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-page {
-  background: var(--white);
-}
+
 
 .logo-web {
   color: var(--iris);
@@ -1239,8 +1334,9 @@ letter-spacing: 0.04em;
 .btn-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 72px;
-  justify-content: center;
+  margin-bottom: 64px;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 .btn-text {
