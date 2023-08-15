@@ -85,7 +85,7 @@ img {
                    та пропиши їх у CSS-файлі: */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -150,7 +150,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 48px;
   height: 4px;
   flex-shrink: 0;
@@ -162,7 +162,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 66px;
   height: 4px;
   flex-shrink: 0;
@@ -174,7 +174,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 48px;
   height: 4px;
   flex-shrink: 0;
@@ -187,7 +187,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 66px;
   height: 4px;
   flex-shrink: 0;
@@ -200,7 +200,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 67px;
   height: 4px;
   flex-shrink: 0;
@@ -246,7 +246,7 @@ body {
   /* gap: 40; */
   /* justify-content: space-between; */
   align-items: center;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  /* border-bottom: 1px solid var(--cornflower, #e7e9fc); */
   background: var(--white, #fff);
 }
 
@@ -294,6 +294,7 @@ body {
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
+  border-color: var(--cornflower);
   /* opacity: 0.3; */
 }
 .mob-menu-link {
@@ -364,22 +365,27 @@ body {
 
 .mob-social-list {
   display: flex;
+  flex-direction: row;
   margin-top: 48px;
-  gap: 56px;
-  flex-wrap: wrap;
+  /* gap: 56px; */
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .mob-social-icons {
-  /* border: 1px solid ;
-  border-radius: 50%;
-  fill:#FFF;
-  background-color: var(--iris); */
-  /* fill: transparent; */
-  stroke: #fff;
 }
 .mob-social-link {
+  display: flex;
+  fill: var(--cloud);
+  background-color: var(--iris);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 8px;
 }
 
+.mob-social-svg {
+}
 /* -------------------end of menu-------------------- */
 
 .link {
@@ -771,16 +777,18 @@ body {
 .customers-list {
   list-style-type: none;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
 }
 .customers-item {
+  /* flex-basis: calc((100% - 16px) / 2); */
   /* width: calc((100% - 120px) / 6); */
-  height: 88px;
+  /* height: 88px; */
 }
 .customers-link {
-  padding: 16px 40px;
+  padding: 4px 10px;
   border: 1px solid var(--lightslate);
   flex-shrink: 0;
   display: flex;
@@ -1291,7 +1299,7 @@ letter-spacing: 0.04em;
   display: block;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
