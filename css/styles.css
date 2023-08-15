@@ -140,8 +140,8 @@ body {
   align-items: center;
   /*  */
   background: var(--white);
-  
 }
+
 
 
 /* ---------------------------------------------------------------------- */
@@ -299,118 +299,79 @@ body {
   top: 0;
   z-index: 20;
   background-color: #FFF;
-  padding: 24px 24px 40px 40px;
+  padding: -24px 24px 40px 40px;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: auto;
-  margin-bottom: 40px;
-  opacity: 0;
-  pointer-events: 0;
 }
-  .nav-header{
- 
-}
-
 .menu-close-btn {
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
-  /* opacity: 0.3; */
+opacity: 0.3;
 }
-.mob-menu-link {
+.close-menu-svg {
+}
+.list {
+}
+.list-mob-menu {
+}
+.item-mob-menu {
   color: var(--navyblue, #2E2F42);
-  
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-decoration: none;
-}
 
-.mob-menu-link:hover{
-  color: var(--ocean, #404BBF);
-font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.11; 
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-
-.mob-menu-item:not(:last-child) {
-margin-bottom: 40px;
+.stud {
 }
-
-.list-mob-menu {
-  flex-direction: column;
-  margin-bottom: 100px;
+.current {
 }
-.second-part{
-  /* display: flex; */
+.port {
+}
+.cont {
 }
 .address-mob-menu {
-  /* display: flex; */
-  
 }
 .list-address-mob-menu {
   color: var(--slate, #434455);
 
+/* Header 3 */
+font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.02em;
-flex-direction: column;
+letter-spacing: 0.02;
 }
 .contacts-mob-menu {
-text-decoration: none;
-color: var(--slate);
 }
-
-
-
-.contacts-mob-menu:hover{
-   color: var(--iris, #4D5AE5);
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.11; 
-letter-spacing: 0.02em;
-}
-
-
-.mob-menu-address-item:not(:last-child) {
-margin-bottom: 40px;
-}
-
-
 .mob-social-list {
-  display: flex;
-  margin-top: 48px;
-  gap: 56px;
-  flex-wrap: wrap;
 }
 .mob-social-icons {
-  /* border: 1px solid ;
   border-radius: 50%;
-  fill:#FFF;
-  background-color: var(--iris); */
-  /* fill: transparent; */
-  stroke: #FFF;
+  padding: 8px 8px;
+  
 }
 .mob-social-link {
-  padding: 8px 8px;
- 
+  border: 1px solid;
+border-radius: 50%;
+fill:#FFF
 
+}
 
+.mob-social-svg {
+}
+.mob-social-use {
+}
+.mob-menu-social-link {
+}
+.mob-menu-social-svg {
+}
+.mob-menu-social-use {
 }
 
 
