@@ -251,11 +251,11 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid var(--cornflower);
+  /* border-bottom: 1px solid var(--cornflower); */
   display: block;
   /* display: flex; */
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .nav-page .logo-web {
@@ -264,16 +264,17 @@ body {
 
 /* -------------------menu------------------------------ */
 
+
+
+
 .menu-open-btn {
   stroke: var(--navyblue);
   background-color: var(--white);
   border: transparent;
-  /* margin-left: auto; */
   cursor: pointer;
-}
-.menu-open-svg {
-}
-.mob-menu {
+  }
+
+.mob-menu {  
   position: fixed;
   top: 0;
   z-index: 50;
@@ -288,16 +289,26 @@ body {
   margin-bottom: 40px;
 }
 .nav-header {
+  
+}
+
+.close-menu-svg {
+
+color:var(--navybluemodal)
 }
 
 .menu-close-btn {
+  box-shadow: none;
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
   border-color: var(--cornflower);
-  /* opacity: 0.3; */
+  /* opacity: 0.1; */
   cursor: pointer;
+  border-width: 0;
+  
+   
 }
 .mob-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -369,8 +380,8 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 48px;
-  /* gap: 56px; */
-  justify-content: space-between;
+  gap: 56px;
+  justify-content: start;
   flex-wrap: nowrap;
 }
 .mob-social-icons {
@@ -386,8 +397,7 @@ body {
   padding: 8px 8px;
 }
 
-.mob-social-svg {
-}
+
 /* -------------------end of menu-------------------- */
 
 .link {
