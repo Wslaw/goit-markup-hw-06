@@ -264,17 +264,14 @@ body {
 
 /* -------------------menu------------------------------ */
 
-
-
-
 .menu-open-btn {
   stroke: var(--navyblue);
   background-color: var(--white);
   border: transparent;
   cursor: pointer;
-  }
+}
 
-.mob-menu {  
+.mob-menu {
   position: fixed;
   top: 0;
   z-index: 50;
@@ -289,26 +286,41 @@ body {
   margin-bottom: 40px;
 }
 .nav-header {
-  
 }
 
 .close-menu-svg {
-
-color:var(--navybluemodal)
+  color: var(--navybluemodal);
 }
 
 .menu-close-btn {
-  box-shadow: none;
+  /* 
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
   border-color: var(--cornflower);
-  /* opacity: 0.1; */
+  opacity: 0.1;
   cursor: pointer;
-  border-width: 0;
-  
-   
+  border-width: 0; */
+
+  /* ------------------------------------------------------------- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  background-color: var(--cornflower);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 24px;
+  width: 24px;
+  /* --------------------------------------------------------------- */
 }
 .mob-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -396,7 +408,6 @@ color:var(--navybluemodal)
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 8px;
 }
-
 
 /* -------------------end of menu-------------------- */
 
