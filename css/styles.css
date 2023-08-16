@@ -270,7 +270,6 @@ body {
   border: transparent;
   /* margin-left: auto; */
   cursor: pointer;
-  background-color: red;
 }
 .menu-open-svg {
 }
@@ -1342,7 +1341,7 @@ letter-spacing: 0.04em;
 }
 
 .wraps {
-  margin-right: 20px;
+  margin-right: 18px;
 }
 .filtre {
   /* display: flex; */
