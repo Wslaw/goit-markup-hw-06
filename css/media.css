@@ -145,6 +145,14 @@
   padding: 64px 0 128px 0;
 }
 
+.wraps {
+  margin-right: 0;
+}
+
+.btn-list {
+  margin-bottom: 64px;
+}
+
 .btn-text {
    padding: 12px 24px;  
 }
@@ -340,8 +348,16 @@
   padding: 100px 0 120px 0;
 }
 
+.btn-list {
+  margin-bottom: 72px;
+}
+
 .btn-text {
    padding: 12px 24px;  
+}
+
+.wraps {
+  margin-right: 0;
 }
 
 .item-portfolio {

@@ -85,7 +85,7 @@ img {
                    та пропиши їх у CSS-файлі: */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -150,7 +150,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: '';
+  content: "";
   width: 48px;
   height: 4px;
   flex-shrink: 0;
@@ -162,7 +162,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: '';
+  content: "";
   width: 66px;
   height: 4px;
   flex-shrink: 0;
@@ -174,7 +174,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: '';
+  content: "";
   width: 48px;
   height: 4px;
   flex-shrink: 0;
@@ -187,7 +187,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: '';
+  content: "";
   width: 66px;
   height: 4px;
   flex-shrink: 0;
@@ -200,7 +200,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: '';
+  content: "";
   width: 67px;
   height: 4px;
   flex-shrink: 0;
@@ -269,6 +269,7 @@ body {
   background-color: var(--white);
   border: transparent;
   /* margin-left: auto; */
+  cursor: pointer;
 }
 .menu-open-svg {
 }
@@ -296,6 +297,7 @@ body {
   border-radius: 50%;
   border-color: var(--cornflower);
   /* opacity: 0.3; */
+  cursor: pointer;
 }
 .mob-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -1299,7 +1301,7 @@ letter-spacing: 0.04em;
   display: block;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -1326,17 +1328,26 @@ letter-spacing: 0.04em;
 
 
 .portfolio {
-  padding: 48px 0 ;
+  padding: 48px 0;
 }
 
 .btn-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
   justify-content: start;
   flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
+.wraps {
+  margin-right: 18px;
+}
+.filtre {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+}
 .btn-text {
   cursor: pointer;
   color: var(--iris);
@@ -1374,7 +1385,7 @@ letter-spacing: 0.04em;
   row-gap: 48px;
   flex-direction: row;
   flex-wrap: wrap;
-   align-items: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -1417,7 +1428,6 @@ letter-spacing: 0.04em;
 }
 /* --------------------END-----Overlay---------------------------------- */
 /* -------------------------------------------------------------------- */
-
 
 .link-portfolio:hover,
 .link-portfolio:focus {
