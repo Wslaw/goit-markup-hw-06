@@ -90,8 +90,10 @@
   .hero-feature {
     margin-left: 0;
     margin-bottom: 8px;
+    text-align: start;
   }
 
+  
   .hero-text {
     max-width: 356px;
     align-items: stretch;
@@ -220,12 +222,14 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .header .container {
     border-bottom: 1px solid var(--cornflower, #e7e9fc);
+    max-width: 1440px; 
   }
 
   .nav-page .logo-web {
@@ -302,7 +306,12 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    text-align: start;
   }
+
+  .feature-text-block{
+
+}
 
   .hero-text {
     font-weight: 400;
@@ -426,3 +435,5 @@
     width: 264px;
   }
 }
+
+
