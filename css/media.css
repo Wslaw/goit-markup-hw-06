@@ -215,6 +215,10 @@
   .footer-text {
     margin-bottom: 72px;
   }
+
+  .modal {
+  padding: 72px 25px 24px 23px;
+}
 }
 
 /* -----------------------1158 px--------------------- */
@@ -434,6 +438,10 @@
   .subscribe-input {
     width: 264px;
   }
+
+  .modal {
+  padding: 72px 24px 24px;
+}
 }
 
 
