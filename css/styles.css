@@ -401,8 +401,8 @@ body {
   flex-direction: row;
   margin-top: 48px;
   /* gap: 56px; */
-  /* gap: calc(40% - (100% / 4)); */
-  justify-content: space-evenly;
+  gap: calc(40% - (100% / 4));
+  justify-content: start;
   flex-wrap: nowrap;
 }
 .mob-social-icons {
