@@ -401,7 +401,8 @@ body {
   flex-direction: row;
   margin-top: 48px;
   /* gap: 56px; */
-  gap: calc(40% - (100% / 4));
+  gap: calc((100% - 168px) / 4);
+
   justify-content: start;
   flex-wrap: nowrap;
 }
