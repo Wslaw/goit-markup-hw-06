@@ -228,6 +228,13 @@
   .modal {
     padding: 72px 25px 24px 23px;
   }
+  .modal-label-text { 
+  display: inline;  
+}
+.modal-title {
+  display: inline;
+}
+
 }
 
 /* -----------------------1158 px--------------------- */
@@ -369,6 +376,14 @@
   .customers-link {
     padding: 16px 32px;
   }
+  .modal-label-text { 
+  display: inline;  
+}
+
+.modal-title {
+  display: inline;
+}
+
   /* --------------------------------portfolio---1158----------------- */
 
   .portfolio {
@@ -450,4 +465,6 @@
   .modal {
     padding: 72px 24px 24px;
   }
+
+  
 }
