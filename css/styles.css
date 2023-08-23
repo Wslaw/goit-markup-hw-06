@@ -1285,22 +1285,18 @@ letter-spacing: 0.04em;
   width: calc(100% - 32px);
 }
 .modal-label-text .check-span {
-  width: 16px;
-  height: 16px;
-  /* background-color: red; */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-right: 8px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  /* border: 1px solid var(--navybluemodal); */
-  /* stroke-width: 1px; */
-  /* stroke: var(--navybluemodal, rgba(46, 47, 66, 0.4)); */
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
+  width: 16px;
+  height: 16px;  
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 
 /* .modal-accent-privacy, */
